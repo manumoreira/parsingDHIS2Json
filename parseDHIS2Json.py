@@ -14,7 +14,7 @@ with open('example.json') as data_file:
     parentName = 'mongo'
     sites = []
     children = []
-    #iterates json file and save data in lists
+    #iterates json file and saves data in lists
     for orgUnit in orgUnits:
     	level = orgUnit['level']
         if level == 1: 
